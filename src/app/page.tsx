@@ -23,6 +23,12 @@ export default function Home() {
           >
             Check out the Wiki
           </a>
+          <a
+            className="mt-4 inline-block rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700"
+            href="https://scratch.mit.edu/discuss/topic/831216/"
+          >
+            View The Discussion Topic
+          </a>
           <h1 className="max-w-xs text-2xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50 mt-8">
             Our Backstory
           </h1>
@@ -39,7 +45,7 @@ export default function Home() {
               href="https://scratch.mit.edu/users/AmpElectrecuted"
               className="hover:underline"
             >
-              AmpElectrecuted
+              AmpElectrecuted (who later got banned from Scratch)
             </a>
             , made a suggestion on Scratch's forums asking the Scratch Team to
             make a movie. Many were in favor of the suggestion, and it gained a
@@ -77,15 +83,40 @@ export default function Home() {
           </p>
           <p>
             {" "}
-            He made a new one that day, but the rules were stricter. There was a
-            new a strike system - if one got 3 strikes, they would get kicked
-            out of the forum. This has only happened to two users,
-            zeldatheaxolotl and ToastRoastBoast, the former of which was
-            rehired. To be rehired, one would have to go into a training studio
-            and prove they could be rehired. By the time the second topic
-            reached 500 pages, many had accepted that it was too long. On July
-            18, 2025, scratchcode1_2_3 created a third topic, which is still
-            used today.
+            He made{" "}
+            <a
+              className="hover:underline"
+              href="https://scratch.mit.edu/discuss/topic/797462/"
+            >
+              a new one
+            </a>{" "}
+            that day, but the rules were stricter. There was a new a strike
+            system - if one got 3 strikes, they would get kicked out of the
+            forum. This has only happened to two users,{" "}
+            <a
+              className="hover:underline"
+              href="https://scratch.mit.edu/users/zeldatheaxolotl"
+            >
+              zeldatheaxolotl
+            </a>{" "}
+            and{" "}
+            <a
+              className="hover:underline"
+              href="https://scratch.mit.edu/users/ToastRoastBoast"
+            >
+              ToastRoastBoast
+            </a>
+            , the former of which was rehired. To be rehired, one would have to
+            go into a training studio and prove they could be rehired. By the
+            time the second topic reached 500 pages, many had accepted that it
+            was too long. On July 18, 2025, scratchcode1_2_3 created a{" "}
+            <a
+              className="hover:underline"
+              href="https://scratch.mit.edu/discuss/topic/831216"
+            >
+              third topic,
+            </a>{" "}
+            which is still used today.
           </p>
         </div>
       </main>
