@@ -29,7 +29,7 @@ const Navbar = () => {
   };
 
   const menus = [
-    { title: "About", path: "/#" },
+    { title: "About", path: "/about" },
     { title: "Our Plan", path: "/#" },
     { title: "Progress", path: "/#" },
     { title: "Contact", path: "/#" },
