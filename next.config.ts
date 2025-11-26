@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-   basePath: "/",
+   basePath: "",
 
   /**
    * Disable server-based image optimization. Next.js does not support
