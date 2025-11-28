@@ -1,10 +1,11 @@
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
     <div className="h-screen items-center justify-center font-sans dark:bg-black">
       <Navbar />
-      <main className="h-screen w-screen max-w-3xl items-center  py-32 px-16 bg-white dark:bg-black">
+      <main className="min-h-screen w-screen max-w-6xl items-center grow py-32 px-16 bg-white dark:bg-black flex flex-col gap-6 text-center sm:items-start sm:text-left">
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
             Scratch Movie: Quest for Bugs
@@ -120,6 +121,7 @@ export default function Home() {
           </p>
         </div>
       </main>
+      <Footer />
     </div>
   );
 }
