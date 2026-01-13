@@ -20,12 +20,12 @@ export default function Home() {
             href="https://questforbugs.miraheze.org/wiki/Main_Page"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-4 inline-block rounded-md bg-yellow px-4 py-2 text-sm font-medium text-white hover:bg-blue-700"
+            className="mt-4 inline-block rounded-md bg-gold-700 px-4 py-2 text-sm font-medium text-white"
           >
             Check out the Wiki
           </a>
           <a
-            className="mt-4 inline-block rounded-md bg-yellow px-4 py-2 text-sm font-medium text-white hover:bg-blue-700"
+            className="mt-4 inline-block rounded-md bg-gold-700 px-4 py-2 text-sm font-medium text-white"
             href="https://scratch.mit.edu/discuss/topic/831216/"
           >
             View The Discussion Topic
